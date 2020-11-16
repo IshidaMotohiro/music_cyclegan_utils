@@ -41,8 +41,8 @@ sh convMP3toWAV.sh ./fma_small_separated/Hip-Hop/
 wavToCQT.shというシェルスクリプトで指定したフォルダ内のwavファイルからCQT画像と位相行列を生成することができる。
 Rock_CQTやHip-Hop_CQTというような名前のフォルダを作っておいて以下のようにスクリプトを実行する。
 
-sh wavToCQT.sh -i ./fma_small_separated/Rock/ -o ./fma_small_separated/Rock_CQT
-sh wavToCQT.sh -i ./fma_small_separated/Hip-Hop/ -o ./fma_small_separated/Hip-Hop_CQT
+sh wavToCQT.sh ./fma_small_separated/Rock/ ./fma_small_separated/Rock_CQT
+sh wavToCQT.sh ./fma_small_separated/Hip-Hop/ ./fma_small_separated/Hip-Hop_CQT
 
 -oオプションで指定したフォルダに画像とnpyファイルが生成される。
 
